@@ -791,5 +791,14 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
 }
 .label-input:focus {
     border-color: #4D5AE5;
-    
+}
+.label-icon {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.label-icon:focus {
+    fill: #4D5AE5;
 }
