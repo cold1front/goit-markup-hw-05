@@ -853,6 +853,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
 }
 .check-but {
     display: block;
+    margin: auto;
     min-width: 169px;
     height: 56px;
     font-family: "Roboto", sans-serif;
